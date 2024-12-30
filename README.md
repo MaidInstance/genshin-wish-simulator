@@ -1,5 +1,5 @@
-# GenshinWishSimulator_CXX
-原神限定卡池祈愿模拟
+# Genshin Wish Simulator (Console Application)
+一个使用C++语言编写的原神限定卡池祈愿模拟（原神5.0版本之后的祈愿不适用）
 
 ## 关于程序
 目前程序还是不完美，存在一些问题，例如：
