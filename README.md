@@ -1,23 +1,6 @@
 # GenshinWishSimulator_CXX
 原神限定卡池祈愿模拟
 
-## 声明（第三方库 与 相关参考）
-### JSON for Modern C++
-version 3.11.3  
-https://github.com/nlohmann/json  
-SPDX-FileCopyrightText: 2013-2023 Niels Lohmann <https://nlohmann.me>  
-SPDX-License-Identifier: MIT  
-
-### Random for modern C++
-version 1.5.0  
-https://github.com/effolkronium/random  
-Licensed under the MIT License <http://opensource.org/licenses/MIT>.  
-Copyright (c) 2017-2023 effolkronium (Illia Polishchuk)  
-
-### 概率数据参考：
-https://www.bilibili.com/read/cv12616453/  
-*作者：OneBST* >> https://space.bilibili.com/6165300
-
 ## 关于程序
 目前程序还是不完美，存在一些问题，例如：
 - 程序在抽取四星时，如果获得了非当期UP四星时，需要判定出武器还是角色，此外，如果连续出四星角色，那么下一发四星出武器概率应当提高
@@ -31,3 +14,17 @@ https://www.bilibili.com/read/cv12616453/
 
 ## 另外
 不要给本项目提Issues，PR。这只是一个一时兴起做的项目，目前并不打算长期更新，提了会被晾在那里。不过，欢迎你下载源代码自己修改和发布（需要遵循开源协议）。预计2025年的夏天，我会回来继续更新这个项目。
+
+
+## 声明（第三方库 与 相关参考）
+### JSON for Modern C++
+Niels Lohmann  
+https://github.com/nlohmann/json
+
+### Random for modern C++ 
+effolkronium (Illia Polishchuk)   
+https://github.com/effolkronium/random   
+
+### 概率数据参考：
+https://www.bilibili.com/read/cv12616453/  
+*作者：OneBST* >> https://space.bilibili.com/6165300
