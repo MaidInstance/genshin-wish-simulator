@@ -180,28 +180,30 @@ string vec2String(vector<string> vec) {
 }
 
 int main() {
-	json info = init_json("./Settings.json");
-	BannerItems bi(info);
-	SillyWisher sw(info);
-	int a{0}, b{51}, times{1000};// a、b 是距离上一个4星、5星之后进行了多少抽
-	sw.set(a, b);
-	cout << "Wish 10 Times: " << vec2String(sw.wish_10_times()) << '\n';
+
+    cout << "HELLO, DEV BRANCH" << endl;
 
 
-    //	while (times > 0) {
-    //		char x = _getch();
-    //		if (x == '1') {
-    //			times--;
-    //			cout << "Wish Once: " << sw.wish_once() << '\n';
-    //		}
-    //		if (x == '2') { // 按理来说，如果不满十抽 不可以进行的
-    //			times -= 10;
-    //            cout << "Wish 10 Times: " << vec2String(sw.wish_10_times()) << '\n';
-    //        }
-    //	}
-    
-	std::cout << "\033[31;4m--END--\033[0m" << std::endl;
-	cin.ignore();
+    // json info = init_json("./Settings.json");
+    // BannerItems bi(info);
+    // SillyWisher sw(info);
+    // int a{0}, b{51}, times{1000};// a、b 是距离上一个4星、5星之后进行了多少抽
+    // sw.set(a, b);
+    // cout << "Wish 10 Times: " << vec2String(sw.wish_10_times()) << '\n';
 
 
+    // //	while (times > 0) {
+    // //		char x = _getch();
+    // //		if (x == '1') {
+    // //			times--;
+    // //			cout << "Wish Once: " << sw.wish_once() << '\n';
+    // //		}
+    // //		if (x == '2') { // 按理来说，如果不满十抽 不可以进行的
+    // //			times -= 10;
+    // //            cout << "Wish 10 Times: " << vec2String(sw.wish_10_times()) << '\n';
+    // //        }
+    // //	}
+
+    // std::cout << "\033[31;4m--END--\033[0m" << std::endl;
+    // cin.ignore();
 }
